@@ -6,3 +6,6 @@ targets:
   - axunit-llvm
 devDependencies:
   "@ax/sdk": 3.0.11
+dependencies:
+  "@ax/system-counters": ^3.0.5
+  "@ax/opcua-server-config": ^0.4.0

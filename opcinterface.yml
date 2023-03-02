@@ -1,0 +1,10 @@
+name: "opcinterface"
+children:
+  - name: "myInt"
+    symbol: "i"
+    type: "Int16"
+    accessLevel: "R/W"
+  - name: "myReal"
+    symbol: "r"
+    type: "Float"
+    accessLevel: "W"
