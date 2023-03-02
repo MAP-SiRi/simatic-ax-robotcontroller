@@ -21,7 +21,7 @@ PROGRAM MyProgram
     output_signal := count.presetReached;
     count_value := count.value;
     count.reset := count_value >= 10;
-    // to be done:
+    // to be done here:
     // Implement OPC Server
     //apax oscr interface install opcinterface.yml -t targetIP
 
