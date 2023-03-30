@@ -19,13 +19,13 @@ variables:
     - "--debug"
 # Variable is set in .env file Example: TIA_PORTAL_INSTALL_PATH="C:\Program Files\Siemens\Automation\Portal V18\Bin"
 targets:
-  - '1500'
-  - 'axunit-llvm'
-  - 'llvm'
+  - "1500"
+  #- 'axunit-llvm'
+  #- 'llvm'
 # Dependencies
 devDependencies:
-  "@ax/sdk": 3.0.10
-  "@ax/ax2tia": 4.4.12
+  "@ax/sdk": 3.0.12
+  "@ax/ax2tia": 4.4.16
   "@simatic-ax/snippetscollection": 0.0.15
 # Apax scripts
 scripts:

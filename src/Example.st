@@ -7,13 +7,7 @@ NAMESPACE Simatic.Ax.DemoLibrary
             _value : DINT;
         END_VAR
         
-        METHOD PUBLIC RunCyclic
-            _value := _value + DINT#1;
-        END_METHOD
-
-        METHOD PUBLIC GetValue : DINT
-            GetValue := _value;
-        END_METHOD
-
+        //Next step: Generate Loadable to perform download to PLC
+        
     END_CLASS
 END_NAMESPACE
